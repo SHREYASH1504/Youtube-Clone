@@ -3,7 +3,6 @@
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5-purple?logo=vite)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 A sleek and modern **YouTube UI clone** built using **React 18** and **Vite**.  
 This project demonstrates component-based architecture, routing, API integration, and responsive design while closely mimicking the real YouTube web interface.
