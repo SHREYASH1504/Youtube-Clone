@@ -1,16 +1,76 @@
-# React + Vite
+# YouTube Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern clone of the YouTube interface built with React and Vite. This project demonstrates component-based architecture, routing, and responsive design while mimicking the look and feel of the YouTube web application.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Feed**: Displays a grid of video thumbnails using mock data.
+- **Video Playback**: Click a thumbnail to view the video details and a placeholder video player.
+- **Responsive Sidebar**: A collapsible sidebar for navigation links.
+- **Top Navigation Bar**: Search input and logo area with simple styling.
+- **React Components**: Separated into Navbar, Sidebar, Feed, PlayVideo, Recommended, and page components.
+- **Vite bundler**: Fast development and optimized build.
 
-## React Compiler
+## 📁 Project Structure
+`
+src/
+  ├─ assets/
+  ├─ Components/
+  │   ├─ Feed/
+  │   ├─ Navbar/
+  │   ├─ PlayVideo/
+  │   ├─ Recommended/
+  │   └─ Sidebar/
+  ├─ Pages/
+  │   ├─ Home/
+  │   └─ Video/
+  ├─ App.jsx
+  ├─ data.js
+  ├─ index.css
+  └─ main.jsx
+`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔧 Setup & Installation
 
-## Expanding the ESLint configuration
+1. **Clone the repository**
+   `ash
+   git clone https://github.com/yourusername/youtube-clone.git
+   cd youtube-clone
+   `
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies**
+   `ash
+   npm install
+   `
+
+3. **Run development server**
+   `ash
+   npm run dev
+   `
+   Access the app at http://localhost:5173 (default Vite port).
+
+4. **Build for production**
+   `ash
+   npm run build
+   `
+
+## 🛠️ Technologies Used
+
+- React 18
+- Vite
+- CSS modules for styling
+- JavaScript (ES6+)
+
+## 📚 Usage
+
+- Open the app and browse the home page to see video thumbnails.
+- Click on a video to navigate to the video detail page.
+- Use the search bar (UI only; not functional) to mimic exploring content.
+
+## 🤝 Contributing
+
+Feel free to open issues or submit pull requests. Improvements, bug fixes, and new features are welcome.
+
+---
+
+*Created as a learning project to explore React component structure and UI replication.*
